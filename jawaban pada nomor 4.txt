@@ -1,0 +1,17 @@
+
+A. // MENGAMBIL DATA USERS
+SELECT id,name FROM users;
+
+B.//Mengambil data items
+//A.
+Select * from items where price >1000000
+
+//B.
+SELECT * FROM items WHERE name LIKE '%uniklo%';
+
+
+C.Menampilkan data items join dengan kategori
+
+SELECT items.id,items.name,items.description,items.price,items.stok,items.category_id, categories.name as kategori
+FROM items INNER JOIN categories
+ON category_id = categories.id

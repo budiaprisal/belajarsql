@@ -1,0 +1,24 @@
+ // table users
+INSERT into users (name,email,password) VALUES ('John Doe','john@doe','john123');
+INSERT into users (name,email,password) VALUES ('John Doe','jane@doe','jenita123');
+
+//table categories
+INSERT into categories (id,name) VALUES (' ','gadget');
+INSERT into categories (id,name) VALUES (' ','cloth');
+INSERT into categories (id,name) VALUES (' ','men');
+INSERT into categories (id,name) VALUES (' ','women');
+INSERT into categories (id,name) VALUES (' ','branded');
+
+
+
+//table items
+INSERT into items (name,description,price,stok,category_id) VALUES ('Sumsang b50','hape keren dari merek sumsang','4000000','100','1');
+INSERT into items (name,description,price,stok,category_id) VALUES ('Uniklooh','baju keren dari brand ternama','500000','50','2');
+INSERT into items (name,description,price,stok,category_id) VALUES ('IMHO Watch','jam tangan anak yang jujur banget','2000000','10','1');
+
+
+
+
+
+
+
